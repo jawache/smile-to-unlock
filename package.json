@@ -1,0 +1,36 @@
+{
+  "name": "smile-to-unlock",
+  "version": "0.0.3",
+  "description": "Smile To Unlock",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build --prerender",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@stencil/core": "next",
+    "@stencil/router": "0.0.9"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jawache/smile-to-unlock.git"
+  },
+  "author": "Asim Hussain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jawache/smile-to-unlock"
+  },
+  "homepage": "https://smiletounlock.com",
+  "main": "dist/collection/index.js",
+  "types": "dist/collection/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "browser": "dist/smiletounlock.js"
+}

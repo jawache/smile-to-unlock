@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+smile-to-unlock-hider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: 1;
+
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.85;
+
+  .top {
+    content: "";
+  }
+  .middle {
+    padding: 1em;
+    text-align: center;
+  }
+  .bottom {
+    content: "";
+  }
+
+  .btn {
+    background: #26ade4;
+    background-image: -webkit-linear-gradient(top, #26ade4, #26ade4);
+    background-image: -moz-linear-gradient(top, #26ade4, #26ade4);
+    background-image: -ms-linear-gradient(top, #26ade4, #26ade4);
+    background-image: -o-linear-gradient(top, #26ade4, #26ade4);
+    background-image: linear-gradient(to bottom, #26ade4, #26ade4);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: #337ab7;
+    background-image: -webkit-linear-gradient(top, #337ab7, #337ab7);
+    background-image: -moz-linear-gradient(top, #337ab7, #337ab7);
+    background-image: -ms-linear-gradient(top, #337ab7, #337ab7);
+    background-image: -o-linear-gradient(top, #337ab7, #337ab7);
+    background-image: linear-gradient(to bottom, #337ab7, #337ab7);
+    text-decoration: none;
+  }  
+}
