@@ -1,18 +1,20 @@
 # Smile To Unlock
 
-Want to give away free content on your site? How about asking for a smile in return :)
-
-Smile To Unlock is a Web Component built using the StencilJS compiler, so  is framework agnostic, can be used in an Angular, Vue, React or even in a vanilla web application.
-
-Smile To Unlock captures an image from the users camera and uses the [Azure Cognitive Services Emotive API](http://bit.ly/emotive-api-stu) to figure out how happy the person is.
-
-- NOTE: On the FREE tier you get 30,000 API requests a month. 
+Want to give away free content on your site? How about asking for a smile in return 😁
 
 ## Demo
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PYuzAE2K5aE/0.jpg)](https://www.youtube.com/watch?v=PYuzAE2K5aE)
 
 You can also see it working on my site here: https://codecraft.tv/courses/angular/es6-typescript/decorators/
+
+## What is it?
+
+Smile To Unlock is a Web Component built using the [StencilJS](https://stenciljs.com) compiler, so  is framework agnostic, can be used in an Angular, Vue, React or even in a vanilla web application.
+
+Smile To Unlock captures an image from the users camera and uses the [Azure Cognitive Services Emotive API](http://bit.ly/emotive-api-stu) to figure out how happy the person is.
+
+- NOTE: On the FREE tier you get 30,000 API requests a month. 
 
 ## Getting Started
 
