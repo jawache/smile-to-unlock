@@ -16,17 +16,37 @@ You can also see it working on my site here: https://codecraft.tv/courses/angula
 
 ## Getting Started
 
+1. Include `smiletounlock.js` in your HTML file
+
+- via a script tag (quickest)
+
+```html
+<script src="https://unpkg.com/smile-to-unlock@latest/dist/smiletounlock.js"></script>
+```
+
+- or via a node module
+
+```bash
+npm install smile-to-unlock --save
+```
+
+Then add a script tag to your HTML like so:
+
+```bash
+ <script src='node_modules/smile-to-unlock/dist/smiletounlock.js></script>
+```
+
 1. Grab an [API Key](https://azure.microsoft.com/try/cognitive-services/?api=emotion-api&WT.mc_id=stu-oss-ashussai) from Azure 
 
 - NOTE: On the FREE tier you get 30,000 API requests a month. 
 
-2. Add this tag to your HTML
+1. Add this tag to your HTML
 
 ```html
 <smile-to-unlock api-key="<YOUR_API_KEY_HERE>"></smile-to-unlock>
 ```
 
-3. Add this code to trigger the component
+1. Add this code to trigger the component
 
 ```js
 var locker = document.querySelector('smile-to-unlock');
@@ -35,7 +55,7 @@ locker.start();
 
 This opens the component full screen and starts asking the user to smile.
 
-4. Add this code to check to see if the user has smiled
+1. Add this code to check to see if the user has smiled
 
 ```js
 locker.addEventListener("userSmiled", function (ev) {
