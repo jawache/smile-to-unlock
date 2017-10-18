@@ -1,6 +1,6 @@
 {
   "name": "smile-to-unlock",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Smile To Unlock",
   "files": [
     "dist/"

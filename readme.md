@@ -6,7 +6,7 @@ Want to give away free content on your site? How about asking for a smile in ret
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PYuzAE2K5aE/0.jpg)](https://www.youtube.com/watch?v=PYuzAE2K5aE)
 
-You can also see it working on my site here: https://codecraft.tv/courses/angular/es6-typescript/decorators/
+You can also see it working on plunker here: https://plnkr.co/edit/MuZp7aHedI5LawAjgfJS?p=preview
 
 ## What is it?
 
