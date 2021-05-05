@@ -38,7 +38,7 @@ Then add a script tag to your HTML like so:
  <script src='node_modules/smile-to-unlock/dist/smiletounlock.js></script>
 ```
 
-1. Grab an [API Key](https://azure.microsoft.com/try/cognitive-services/?api=emotion-api&WT.mc_id=stu-oss-ashussai) from Azure 
+1. Grab an [API Key](https://azure.microsoft.com/try/cognitive-services/?api=emotion-api&WT.mc_id=green-0000-ashussai) from Azure 
 
 - NOTE: On the FREE tier you get 30,000 API requests a month. 
 
